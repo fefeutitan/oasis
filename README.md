@@ -1,6 +1,7 @@
 # OASIS 
+Order Administration & Sales Information System 
 
-Order Administration & Sales Information System - Spring Boot Learning Project
+Spring Boot Learning Project
 A Java backend learning project exploring the foundations of REST APIs, persistence, authentication and common enterprise application integrations.
 
 > **Project status:** Educational/legacy codebase. The documentation distinguishes declared dependencies from verified working features. This is not a production-ready reference implementation.
