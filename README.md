@@ -1,4 +1,4 @@
-# Pedidos — Spring Boot Learning Project
+# OASIS - Order Administration & Sales Information System - Spring Boot Learning Project
 
 A Java backend learning project exploring the foundations of REST APIs, persistence, authentication and common enterprise application integrations.
 
@@ -23,9 +23,9 @@ This is a Maven-packaged Spring Boot JAR application. The declared dependencies 
 
 Configuration files:
 
-- `src/main/resources/application.properties` — activates the `test` profile by default.
-- `src/main/resources/application-test.properties` — H2 file database at `jdbc:h2:file:~/test`, H2 console at `/h2-console`, and SMTP configuration placeholders.
-- `src/main/resources/application-dev.properties` — MySQL at `localhost:3306/curso_spring` with username `root`; this profile sets `spring.jpa.hibernate.ddl-auto=create`.
+- `src/main/resources/application.properties` - activates the `test` profile by default.
+- `src/main/resources/application-test.properties` - H2 file database at `jdbc:h2:file:~/test`, H2 console at `/h2-console`, and SMTP configuration placeholders.
+- `src/main/resources/application-dev.properties` - MySQL at `localhost:3306/curso_spring` with username `root`; this profile sets `spring.jpa.hibernate.ddl-auto=create`.
 
 **Caution:** The development profile's `ddl-auto=create` setting can recreate database tables. Use a disposable database and do not point this configuration at valuable data. Never commit real SMTP or database credentials.
 
